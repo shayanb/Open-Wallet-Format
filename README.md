@@ -39,7 +39,7 @@ Example
 -------
 ./OWF.py --wallet ./wallet.dat
 
-./OWF.py --wallet ./wallet.dat ./newwallet.key
+./OWF.py --wallet ./wallet.dat --newwallet ./newwallet.key
 
 
 
