@@ -55,6 +55,6 @@ TODO
 
 Support
 =======
-Please support the work by either writing code or donating to 1owfJHTsWrrCpgaaYjC1vbJevuQzYRTYn
+Please support the work by either writing code or donate to 1owfJHTsWrrCpgaaYjC1vbJevuQzYRTYn
 
 It would be greatly appreciated. 
