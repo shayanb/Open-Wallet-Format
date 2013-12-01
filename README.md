@@ -45,7 +45,7 @@ Example
 
 TODO
 ----
-* Lesser dependencies to pywallet.py
+* Less dependencies to pywallet.py
 * Add the other way convertion (Using Import Private keys of Pywallet.py)
 * Add --passphrase to read encrypted wallet.dat
 * Nicer code! for now it works fine but it could be implemented in less hacky-code style
