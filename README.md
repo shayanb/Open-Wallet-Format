@@ -1,6 +1,6 @@
 Open-Wallet-Format
 ==================
-Bitcoin Wallet Convertor
+Bitcoin Wallet Convertor (for now) 1.0
 
 
 OWF.py reads the keys from Bitcoin-QT wallet (e.g wallet.dat) and exports them to MultiBit wallet format (e.g multibit.key) but also applicable for Blockchain.info imports
@@ -48,9 +48,11 @@ TODO
 * Lesser dependencies to pywallet.py
 * Add --passphrase to read encrypted wallet.dat
 * Nicer code! for now it works fine but it could be implemented in less hacky-code style
+* Should be tested on windows too (tested on Mac and Linux so far)
 
 
 Support
 =======
 Please support the work by either writing code or donating to 1owfJHTsWrrCpgaaYjC1vbJevuQzYRTYn
+
 It would be greatly appreciated. 
