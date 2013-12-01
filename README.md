@@ -48,3 +48,9 @@ TODO
 * Lesser dependencies to pywallet.py
 * Add --passphrase to read encrypted wallet.dat
 * Nicer code! for now it works fine but it could be implemented in less hacky-code style
+
+
+Support
+=======
+Please support the work by either writing code or donating to 1owfJHTsWrrCpgaaYjC1vbJevuQzYRTYn
+It would be greatly appreciated. 
