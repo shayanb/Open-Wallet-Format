@@ -50,6 +50,7 @@ TODO
 * Add --passphrase to read encrypted wallet.dat
 * Nicer code! for now it works fine but it could be implemented in less hacky-code style
 * Should be tested on windows too (tested on Mac and Linux so far)
+* Define a standard for wallet format as .OWF
 
 
 Support
