@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 
+# ShayanB
+# info@btctalk.com
+
+
 import os, sys
 from optparse import OptionParser
 import simplejson
@@ -15,7 +19,8 @@ def keyheader(file):
                   "#   produced by the Satoshi client/ sipa dumpprivkey utility.\n"
                   "#   Key createdAt is in UTC format as specified by ISO 8601\n"
                   "#   e.g: 2011-12-31T16:42:00Z . The century, 'T' and 'Z' are mandatory\n"
-                  "# Converted by Open Wallet Format (Converter for now) - info@btctalk.com\n#\n")
+                  "# Converted by Open Wallet Format (Converter for now) - info@btctalk.com\n"
+                  "# Donation would be greatly appreciated: 1owfJHTsWrrCpgaaYjC1vbJevuQzYRTYn\n#\n")
     newfile.close()
 
 
@@ -30,7 +35,7 @@ if __name__ == '__main__':
                       help="wallet.dat or the exported wallet from Bitcoin-QT to be converted")
 
     parser.add_option("--newwallet", dest="nwwallet",
-                      help="New wallet name (multibit .key files only) (in the same directory as the --wallet")
+                      help="New wallet name (Default: multibit.key) (in the same directory as the --wallet")
 
     (options, args) = parser.parse_args()
 
@@ -51,7 +56,7 @@ if __name__ == '__main__':
             keyheader(nwwallet)
     if not options.nwwallet:
         nwwallet = os.path.dirname(qtwallet)
-        nwwallet = nwwallet + "/Multibit.key"
+        nwwallet = nwwallet + "/multibit.key"
         if os.path.exists(nwwallet):
             print "WARNING: multibit.key already exists, All your keys are gone!"
             print "Just kidding, I renamed it to multibit.key_OLD"
@@ -85,6 +90,8 @@ if __name__ == '__main__':
     newwallet.close()
     os.remove("./temp")
     print("Done - TAKE GOOD CARE OF THIS FILE AS IT IS NOT ENCRYPTED")
+    print("Don't forget to donate for better softwares : 1owfJHTsWrrCpgaaYjC1vbJevuQzYRTYn")
+
 
 
 
